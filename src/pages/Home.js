@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import ParticleBackground from "../components/ParticleBackground";
-import rajarohanPhoto from "../assets/rajarohan.jpg"; // Import your photo
-import Loader from "../components/Loader"; // Import the Loader component
-import { FaLinkedin, FaGithub } from "react-icons/fa"; // LinkedIn and GitHub icons
-import { SiLeetcode, SiCodechef, SiHackerrank } from "react-icons/si"; // LeetCode, CodeChef, HackerRank icons
+import rajarohanPhoto from "../assets/rajarohan.jpg";
+import Loader from "../components/Loader";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiLeetcode, SiCodechef, SiHackerrank } from "react-icons/si";
 
 const HomeContainer = styled.div`
   height: 100vh;
@@ -99,16 +99,15 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading delay (e.g., fetching data or assets)
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 500);
 
-    return () => clearTimeout(timer); // Cleanup timer
+    return () => clearTimeout(timer);
   }, []);
 
   if (isLoading) {
-    return <Loader />; // Show the loader while loading
+    return <Loader />;
   }
 
   return (

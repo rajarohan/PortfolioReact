@@ -8,17 +8,17 @@ const SkillsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 20px 20px; // Add padding-top to account for Navbar height
+  padding: 80px 20px 20px;
   text-align: center;
   position: relative;
   z-index: 1;
 
   @media (max-width: 768px) {
-    padding: 60px 20px 20px; // Adjust for smaller screens
+    padding: 60px 20px 20px;
   }
 
   @media (max-width: 480px) {
-    padding: 40px 10px 10px; // Adjust for mobile screens
+    padding: 40px 10px 10px;
   }
 `;
 
@@ -120,7 +120,6 @@ const SkillName = styled.h3`
   }
 `;
 
-// Grouped skills by category
 const skillsData = {
   Languages: [
     { name: "Python", icon: "🐍" },

@@ -8,7 +8,7 @@ const EducationContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 20px 20px; // Add padding-top to account for Navbar height
+  padding: 80px 20px 20px;
   text-align: center;
   position: relative;
   z-index: 1;

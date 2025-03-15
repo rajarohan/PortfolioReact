@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import ParticleBackground from "../components/ParticleBackground";
-import { FaGithub } from "react-icons/fa"; // Import GitHub icon from react-icons
+import { FaGithub } from "react-icons/fa";
 
 const ProjectContainer = styled.div`
   min-height: 100vh;
@@ -11,7 +11,7 @@ const ProjectContainer = styled.div`
   align-items: center;
   background: ${({ theme }) => theme.colors.background};
   position: relative;
-  z-index: 1; // Ensure content is above the particle background
+  z-index: 1;
 `;
 
 const Title = styled.h2`

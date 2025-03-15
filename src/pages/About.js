@@ -11,7 +11,7 @@ const AboutContainer = styled.div`
   padding: 20px;
   text-align: center;
   position: relative;
-  z-index: 1; // Ensure content is above the particle background
+  z-index: 1;
 `;
 
 const AboutCard = styled(motion.div)`

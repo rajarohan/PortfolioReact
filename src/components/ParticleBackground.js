@@ -15,7 +15,7 @@ const ParticleBackground = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        zIndex: -1, // Ensure it stays in the background
+        zIndex: -1,
       }}
     >
       <Particles

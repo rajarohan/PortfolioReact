@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Education from "./pages/Education"; // Import the Education component
+import Education from "./pages/Education";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/GlobalStyle";
 import theme from "./styles/theme";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/education" element={<Education />} /> {/* Add Education route */}
+          <Route path="/education" element={<Education />} />
         </Routes>
       </Router>
     </ThemeProvider>

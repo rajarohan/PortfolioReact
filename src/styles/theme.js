@@ -1,9 +1,9 @@
 const theme = {
     colors: {
-      background: "#0a192f", // Navy blue
-      text: "#ccd6f6", // Light blue
-      primary: "#64ffda", // Teal
-      secondary: "#8892b0", // Grayish blue
+      background: "#0a192f",
+      text: "#ccd6f6",
+      primary: "#64ffda",
+      secondary: "#8892b0",
     },
     fonts: {
       primary: "'Poppins', sans-serif",

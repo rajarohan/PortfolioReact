@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import logo from "../assets/logo.png";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import hamburger and close icons
-import { useState } from "react"; // For toggling the mobile menu
-import resume from "../assets/Rajarohan's Resume-hackerresume.pdf"; // Import the resume file
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
+import resume from "../assets/Rajarohan's Resume-hackerresume.pdf";
 
 const Nav = styled.nav`
   background: rgba(10, 25, 47, 0.8);
@@ -34,7 +34,7 @@ const ButtonsContainer = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    display: none; // Hide buttons on smaller screens
+    display: none;
   }
 `;
 
@@ -62,7 +62,7 @@ const NavLinks = styled.div`
   gap: 30px;
 
   @media (max-width: 768px) {
-    display: none; // Hide links on smaller screens
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 80px;
@@ -75,7 +75,7 @@ const NavLinks = styled.div`
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
     &.active {
-      display: flex; // Show links when menu is active
+      display: flex;
     }
   }
 `;
@@ -102,7 +102,7 @@ const MenuIcon = styled.div`
   cursor: pointer;
 
   @media (max-width: 768px) {
-    display: block; // Show hamburger icon on smaller screens
+    display: block;
   }
 `;
 
@@ -115,13 +115,12 @@ function Navbar() {
 
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = resume; // Use the imported resume file
-    link.download = "Rajarohan_Resume.pdf"; // Set the download filename
+    link.href = resume;
+    link.download = "Rajarohan_Resume.pdf";
     link.click();
   };
 
   const handleHireMe = () => {
-    // Replace with the actual link to your contact page or email
     window.location.href = "/contact";
   };
 
