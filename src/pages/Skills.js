@@ -18,7 +18,7 @@ const SkillsContainer = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding: 50px 20px 20px; // Adjust for mobile screens
+    padding: 40px 10px 10px; // Adjust for mobile screens
   }
 `;
 
@@ -33,6 +33,7 @@ const Title = styled.h2`
 
   @media (max-width: 480px) {
     font-size: 1.8rem;
+    margin-bottom: 30px;
   }
 `;
 
@@ -43,10 +44,12 @@ const CategoryTitle = styled.h3`
 
   @media (max-width: 768px) {
     font-size: 1.8rem;
+    margin: 30px 0 15px;
   }
 
   @media (max-width: 480px) {
     font-size: 1.5rem;
+    margin: 20px 0 10px;
   }
 `;
 

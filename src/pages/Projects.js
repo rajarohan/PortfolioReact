@@ -68,6 +68,12 @@ const GitHubLink = styled.a`
 
 const projects = [
   {
+    title: "Portfolio Website",
+    description:
+      "A responsive portfolio website built using React, styled-components, and framer-motion.",
+    github: "https://github.com/rajarohan/PortfolioReact",
+  },
+  {
     title: "Nyaay Saathee",
     description: "AI-based Legal Assistant",
     github: "https://github.com/rajarohan/Nyaay-Saathee.git",
