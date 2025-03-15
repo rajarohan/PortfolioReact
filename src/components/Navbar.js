@@ -159,6 +159,9 @@ function Navbar() {
         <NavLink to="/about" whileHover={{ scale: 1.1 }} onClick={toggleMenu}>
           About
         </NavLink>
+        <NavLink to="/education" whileHover={{ scale: 1.1 }} onClick={toggleMenu}>
+          Education
+        </NavLink>
         <NavLink to="/skills" whileHover={{ scale: 1.1 }} onClick={toggleMenu}>
           Skills
         </NavLink>
