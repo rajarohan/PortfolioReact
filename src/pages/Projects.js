@@ -74,6 +74,11 @@ const projects = [
     github: "https://github.com/rajarohan/PortfolioReact",
   },
   {
+    title: "Zerodha Clone",
+    description: "A Trading platform inspired by Zerodha, made with complete MERN stack",
+    github: "https://github.com/rajarohan/Zerodha-Clone",
+  },
+  {
     title: "Nyaay Saathee",
     description: "AI-based Legal Assistant",
     github: "https://github.com/rajarohan/Nyaay-Saathee.git",
