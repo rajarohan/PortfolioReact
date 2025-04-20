@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import logo from "../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import resume from "../assets/Rajarohan's Resume-hackerresume.pdf";
+import resume from "../assets/resumeRajarohan.pdf";
 
 const Nav = styled.nav`
   background: rgba(10, 25, 47, 0.8);
